@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PSEUDO</title>
+    <style>
+      h1 {
+        color: chartreuse;
+      }
+      h1:hover {
+        color: rgb(27, 78, 98);
+      }
+      .middle-person:focus {
+        color: blue;
+        font-weight: 700px;
+      }
+      a:visited {
+        color: blue;
+      }
+      li:first-child {
+        color: chocolate;
+      }
+      li:last-child {
+        color: rgb(4, 63, 202);
+      }
+      li:nth-child(2n + 1) {
+        background-color: rgb(205, 90, 90);
+      }
+      h3::before {
+        content: "Hello ";
+      }
+      h3::after {
+        content: "  Bye";
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is normal</h1>
+    <input type="text" />
+    <input class="middle-person" type="text" />
+    <input type="text" />
+    <br />
+    <a href="https://www.google.com/">Google e Jaw</a>
+    <a href="https://github.com/">Github e Jaw</a>
+    <a href="https://github.com/Programming-Hero1">Never go</a>
+    <br />
+    <h3>middle size header -1</h3>
+    <h3>middle size header -2</h3>
+    <h3>middle size header -3</h3>
+    <h3>middle size header -4</h3>
+    <h3>middle size header -5</h3>
+    <h3>middle size header -6</h3>
+    <ul>
+      <li>Alia</li>
+      <li>Kalia</li>
+      <li>Balia</li>
+      <li>Chalia</li>
+      <li>Dalia</li>
+      <li>Naila</li>
+    </ul>
+  </body>
+</html>
